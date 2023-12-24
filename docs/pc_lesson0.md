@@ -69,3 +69,5 @@ Setting up hardware and software
 4. We will often switch between **Live** and **Upload** mode throughout this unit. Remember to "Update Firmware" every time we switch to **Live** mode.
 
 ## End of Lesson 0 Assessment
+
+Open the link below and login using your Microsoft account to do the Quiz.
