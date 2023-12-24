@@ -1,0 +1,16 @@
+site_name: "Physical Computing"
+nav:
+  - Lesson 0 - Setting up: pc_lesson0.md
+  - Lesson 1 - Digital Output: pc_lesson1.md
+  - Lesson 2 - Digital Input: pc_lesson2.md
+  - Lesson 3 - Analogue Output: pc_lesson3.md
+  - Lesson 4 - Melody Tone: pc_lesson4.md
+  - Lesson 5 - Analogue Input: pc_lesson5.md
+  - Lesson 6 - DC Motor: pc_lesson6.md
+  - Lesson 7 - Ultrasonic Sensor: pc_lesson7.md
+  - About: about.md
+
+theme: 
+  name: material
+  # titles_only: true
+  collapse_navigation: true
