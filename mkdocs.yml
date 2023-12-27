@@ -11,6 +11,6 @@ nav:
   - About: about.md
 
 theme: 
-  name: material
+  name: readthedocs
   # titles_only: true
   collapse_navigation: true
