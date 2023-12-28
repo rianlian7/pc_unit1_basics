@@ -1,2 +1,3 @@
-# Lesson 3 - Analogue Output
+# Lesson 3 - Digital Input
 
+## Task 1 - External Pushbutton

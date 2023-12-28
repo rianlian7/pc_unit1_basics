@@ -42,3 +42,5 @@ Objectives:
 Challenge: What can you do so that the LED will blink faster?
 
 ## Task 2 - Blinking multiple LED
+
+## Task 3 - LED and Resistors

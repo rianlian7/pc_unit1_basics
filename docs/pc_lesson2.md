@@ -1,3 +1,4 @@
-# Lesson 2 - Digital Input
+# Lesson 2 - Analogue Output
 
-Setting the input
+## Task 1 - Fade an LED
+
