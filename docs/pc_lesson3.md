@@ -1,3 +1,3 @@
-# Lesson 3 - Digital Input
+# Lesson 3: Digital Input
 
-## Task 1 - External Pushbutton
+# Project 5 - External Pushbutton

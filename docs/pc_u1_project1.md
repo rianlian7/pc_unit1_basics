@@ -1,4 +1,4 @@
-# Lesson 1 - Digital Output
+# Lesson 1: Digital Output
 
 Objectives:
 
@@ -8,7 +8,7 @@ Objectives:
 
 3. To create different LED patterns or sequences.
 
-## Task 1 - Blink an LED
+# Project 1 - Blink an LED
 
 1. Drag and drop the following blocks into your code area.
 
@@ -40,7 +40,3 @@ Objectives:
     Observe the LED on the microcontroller. The LED at pin 9 should blink every 1 seconds.
 
 Challenge: What can you do so that the LED will blink faster?
-
-## Task 2 - Blinking multiple LED
-
-## Task 3 - LED and Resistors

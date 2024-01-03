@@ -1,11 +1,11 @@
-# Lesson 5 - Analogue Input
+# Lesson 5: Analogue Input
 
-## Task 1 - Potentiometer
+# Project 8 - Potentiometer
 
-## Task 2 - Analogue IR Sensor
-
-
-## Task 3 - Ultrasonic Sensor
+# Project 9 - Analogue IR Sensor
 
 
-## Project Challenge - Musical Air Instruments
+# Project 10 - Ultrasonic Sensor
+
+
+# Project 11 - Musical Air Instruments

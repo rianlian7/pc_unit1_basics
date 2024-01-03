@@ -1,4 +1,4 @@
-# Lesson 2 - Analogue Output
+# Lesson 2: Analogue Output
 
-## Task 1 - Fade an LED
+# Project 4 - Fade an LED
 

@@ -1,4 +1,4 @@
-# Lesson 0 - Setting up hardware and software
+# Lesson 0: Setting up hardware and software
 
 Setting up hardware and software
 
