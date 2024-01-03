@@ -51,7 +51,12 @@ The breadboard contains conductive material underneath the pinholes.
 <br>
 <br>
 <br>
-### Challenge: Now try adding two more sets of LEDs and Resistors to your board.
+
+### Challenge
+
+Now try adding two more sets of LEDs and Resistors to your board.
 ![](images/p3_7_circuit.jpg)
 
 Modify your code so that all three LED will light up in sequences.
+
+***Once completed, inform your teacher to check your progress.***

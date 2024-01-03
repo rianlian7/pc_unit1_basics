@@ -35,4 +35,7 @@ Before we begin, switch to **Live mode**
     
     Observe the LED on the microcontroller. The LED at pin 9 should blink every 1 seconds.
 
-**Challenge: What can you do so that the LED will blink faster?**
+### Challenge: 
+What can you do so that the LED will blink faster?
+
+***Once completed, inform your teacher to check your progress.***

@@ -22,4 +22,8 @@ Before we begin, switch to **Live mode**
 
 6. Press the green flag ![](images/btnGreenFlag.jpg) and observe the result.
 
-**Challenge: Try coding an LED sequence so that one LED will blink one at a time.**
+### Challenge 
+Try coding an LED sequence so that one LED will blink one at a time.
+
+
+***Once completed, inform your teacher to check your progress.***
