@@ -1,14 +1,10 @@
-# Lesson 1: Digital Output
-
-Objectives:
-
-1. To program a single LED to blink.
-
-2. To program multiple LED to blink.
-
-3. To create different LED patterns or sequences.
-
 # Project 1 - Blink an LED
+
+Objectives: To program a single LED to blink.
+
+Before we begin, switch to **Live mode**
+
+![](images/toggle_LiveMode.jpg)
 
 1. Drag and drop the following blocks into your code area.
 
@@ -39,4 +35,4 @@ Objectives:
     
     Observe the LED on the microcontroller. The LED at pin 9 should blink every 1 seconds.
 
-Challenge: What can you do so that the LED will blink faster?
+**Challenge: What can you do so that the LED will blink faster?**
