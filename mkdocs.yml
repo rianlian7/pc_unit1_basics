@@ -1,6 +1,7 @@
 site_name: "Physical Computing - The Basics"
 nav:
   - About: index.md
+  - 'Part List' : partList.md
   - Lesson 0 - Setting up: pc_l0.md
   - Lesson 1 - Digital Output: 
     - 'Project 1: Blink an LED': pc_u1_project1.md
