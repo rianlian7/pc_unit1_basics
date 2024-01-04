@@ -1,5 +1,6 @@
 site_name: "Physical Computing - The Basics"
 nav:
+  - About: index.md
   - Lesson 0 - Setting up: pc_l0.md
   - Lesson 1 - Digital Output: 
     - 'Project 1: Blink an LED': pc_u1_project1.md
@@ -21,5 +22,5 @@ nav:
 theme: 
   name: readthedocs
   extra_css: custom.css
-  # titles_only: true
-  collapse_navigation: true
+  collapse_navigation: True
+  navigation_depth: 2
