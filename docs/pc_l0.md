@@ -76,6 +76,8 @@ If you already have mBlock 5 installed, you can skip Task 2 and go to Task 3.
 ## End of Lesson 0 Quiz
 
 Scan the QR Code below to open the quiz.
-![](images/QRCode for Physical Computing - Level 1 - Lesson 0 Quiz.png)
+
+![](images/QRCode for Physical Computing - Level 1 - Lesson 0 Quiz (Small).png)
+
 Alternatively, you may open the link below and login using your Microsoft account to do the Quiz.
 [Link to the Lesson 0 Quiz](https://forms.office.com/r/6VrUaX0GEW)
