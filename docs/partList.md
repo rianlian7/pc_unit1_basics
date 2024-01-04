@@ -22,3 +22,5 @@ You may hover your mouse cursor over the ℹ️ symbol to find out more informat
 | ![Diode](images/component/Diode.jpg)         | Diode <span title="The diode is like a one-way street for electricity. It ensures that the electrical traffic only goes in the right direction, keeping things organized.">ℹ️</span>|
 | ![Motor](images/component/Motor.jpg)         | Motor <span title="The motor is the muscle of our project. When the Maker Uno says, 'Move!' the motor starts spinning or moving something, bringing our creations to life.">ℹ️</span>|
 | ![Propeller](images/component/Propeller.jpg)| Propeller <span title="The propeller is like the fan on an airplane. It spins around and helps our projects move through the air, making them soar and glide.">ℹ️</span>|
+
+Images were acquired from [Cytron Technologies](https://my.cytron.io/p-maker-uno-learning-box-everything-you-need-to-start-making)
