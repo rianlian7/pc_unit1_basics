@@ -1,12 +1,12 @@
-# Project 11: Musical Air Instruments
+# Project 11: Musical Distance Detector
 
-Objective: To program the microcontroller to read value from an ultrasonic sensor to detect distances and play different sound based on the distance.
+Objective: Program the microcontroller to use an ultrasonic sensor to detect distances and play different musical notes based on that distance.
 
 Before we begin, switch to **Upload Mode**
 
 ![](images/toggle_UploadMode.jpg)
 
-You may use the same circuit and code from the previous project.
+You can reuse the circuit and code from the previous project.
 
 1. Make sure to double-check your wiring before you begin.
     - VCC  ➡️  5V

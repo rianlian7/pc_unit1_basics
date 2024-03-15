@@ -16,6 +16,8 @@ Before we begin, switch to **Upload Mode**
 
     ![](images/p10_circuit.png)
 
+    Ultrasonic sensors emit high-frequency sound waves and measure the time it takes for the sound to bounce back from an object. This allows us to calculate the distance between the sensor and the object. In this project, we'll use this concept to create a musical distance detector!
+
 1. Then, we must install the extension **Upload Mode Broadcast** in mBlock 5 in the **Devices** tab.
 
     Make sure the devices tab is selected.

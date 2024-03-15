@@ -18,7 +18,7 @@ nav:
     - 'Project 8: Potentiometer': pc_u1_project8.md
     - 'Project 9: IR Sensor': pc_u1_project9.md
     - 'Project 10: Ultrasonic Sensor': pc_u1_project10.md
-    - 'Project 11: Musical Air Instruments': pc_u1_project11.md
+    - 'Project 11: Musical Distance Detector': pc_u1_project11.md
 
 theme: 
   name: readthedocs
