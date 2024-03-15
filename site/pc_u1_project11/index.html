@@ -87,6 +87,8 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Project 11: Musical Air Instruments</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#challenges">Challenges</a>
+    </li>
     </ul>
                   </li>
               </ul>
@@ -115,6 +117,62 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="project-11-musical-air-instruments">Project 11: Musical Air Instruments</h1>
+<p>Objective: To program the microcontroller to read value from an ultrasonic sensor to detect distances and play different sound based on the distance.</p>
+<p>Before we begin, switch to <strong>Upload Mode</strong></p>
+<p><img alt="" src="../images/toggle_UploadMode.jpg" /></p>
+<p>You may use the same circuit and code from the previous project.</p>
+<ol>
+<li>
+<p>Make sure to double-check your wiring before you begin.</p>
+<ul>
+<li>VCC  ➡️  5V</li>
+<li>Trig ➡️  Digital Pin 12</li>
+<li>Echo ➡️  Digital Pin 11</li>
+<li>Gnd  ➡️  Gnd</li>
+</ul>
+<p><img alt="" src="../images/p10_circuit.png" /></p>
+</li>
+<li>
+<p>Make sure the buzzer is turned on.</p>
+<p><img alt="" src="../images/p6_switch.jpg" /></p>
+</li>
+<li>
+<p>Similar to the previous project, write the following code in their respective section.</p>
+<p><strong>Devices</strong> section
+<img alt="" src="../images/p11_code1.png" /></p>
+<p><strong>Sprites</strong> section
+<img alt="" src="../images/p11_code2.png" /></p>
+<p>We use this same code so that we can look at the distance as a reference.</p>
+</li>
+<li>
+<p>Switch to the <strong>Devices</strong> section.</p>
+<p>Create a variable named "distance". If you already have this variable from the previous project, you can reuse that instead.</p>
+<p><img alt="" src="../images/p11_showVariable.png" /></p>
+</li>
+<li>
+<p>Then modify your code to look like this.</p>
+<p><img alt="" src="../images/p11_code3.png" /></p>
+<p>Click the <img alt="upload" src="../images/btnUpload.jpg" /> button.</p>
+<p>Try to move the palm of your hand close to the ultrasonic sensor and far from it. 
+<img alt="" src="../images/testUltrasonic.png" /></p>
+<p>Does your microcontroller play different notes?</p>
+<p>If not, check your code or wiring.</p>
+</li>
+<li>
+<p>Now we will add more notes. Modify your code to this.</p>
+<p><img alt="" src="../images/p11_code4.png" /></p>
+<p>Click the <img alt="upload" src="../images/btnUpload.jpg" /> button.</p>
+<p>The buzzer of the microcontroller should play three different notes when you move the palm of your hands towards and away from the ultrasonic sensor.
+<img alt="" src="../images/testUltrasonic.png" /></p>
+</li>
+<li>
+<p>Now let's make the buzzer play 4 different notes. Modify your cdoe to look like this.</p>
+<p><img alt="" src="../images/p11_code5.png" /></p>
+<p>Your microcontroller should now be able to play 4 different notes as you move your palm towards and away from the ultrasonic sensor.</p>
+</li>
+</ol>
+<h2 id="challenges">Challenges</h2>
+<p>Add more Air Musical Notes. Have at least 5 notes. You can try to adjust the distance for each notes. Instead of the distance of by 10, try by 5. You may also adjust the beats to 0.1 beats to have more faster beats!</p>
               
             </div>
           </div><footer>

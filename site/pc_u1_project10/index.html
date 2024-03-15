@@ -85,6 +85,14 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Project 10: Ultrasonic Sensor</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#installing-the-upload-mode-broadcast-extension">Installing the Upload Mode Broadcast extension.</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#getting-the-data-from-the-ultrasonic-sensor">Getting the data from the Ultrasonic Sensor.</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#explanation">Explanation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#performing-a-conditional-statement">Performing a conditional statement</a>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project11/">Project 11: Musical Air Instruments</a>
@@ -118,6 +126,7 @@
 <p>Objective: To program the microcontroller to read value from an ultrasonic sensor to detect distances.</p>
 <p>Before we begin, switch to <strong>Upload Mode</strong></p>
 <p><img alt="" src="../images/toggle_UploadMode.jpg" /></p>
+<h2 id="installing-the-upload-mode-broadcast-extension">Installing the Upload Mode Broadcast extension.</h2>
 <ol>
 <li>
 <p>Construct the circuit below. You may use a breadboard if you like.</p>
@@ -129,7 +138,85 @@
 </ul>
 <p><img alt="" src="../images/p10_circuit.png" /></p>
 </li>
-<li></li>
+<li>
+<p>Then, we must install the extension <strong>Upload Mode Broadcast</strong> in mBlock 5 in the <strong>Devices</strong> tab.</p>
+<p>Make sure the devices tab is selected.</p>
+<p><img alt="" src="../images/tabDevices.jpg" /></p>
+<p>Then, at the bottom of the screen, click the <strong>extension</strong> <img alt="" src="../images/btn_extension.png" /> button.</p>
+<p><img alt="" src="../images/p10_instruction1.png" /></p>
+</li>
+<li>
+<p>Search for <strong>Upload Mode Broadcast</strong>. Then look for the extension and click <strong>+ Add</strong>.</p>
+<p><img alt="" src="../images/p10_instruction2.png" /></p>
+<p>Once you added the extensions, you will see a new section from your coding toolbox.</p>
+<p><img alt="" src="../images/p10_instruction3.png" /></p>
+</li>
+<li>
+<p>Next, we will also install the <strong>Upload Mode Broadcast</strong> for the <strong>Sprites</strong> tab.</p>
+<p>Click the <strong>Sprite</strong> tab. <img alt="" src="../images/tabSprites.jpg" /></p>
+</li>
+<li>
+<p>Click the Extensions button <img alt="" src="../images/btn_extension.png" />.</p>
+<p>Then add the <strong>Upload Mode Broadcast</strong>.</p>
+</li>
+</ol>
+<h3 id="remember">Remember</h3>
+<p>The <strong>Devices</strong> and <strong>Sprites</strong> tab each have their own coding workspace.</p>
+<p>The code in <strong>Devices</strong> tab will only work in the <strong>Devices</strong> section.
+The code in <strong>Sprites</strong> tab will only work in <strong>Sprites</strong> section.</p>
+<p>Now we are going to code the microcontroller to:</p>
+<ul>
+<li>
+<p><em>Receive</em> distance data from the ultrasonic sensor into the microcontroller (Devices tab), and</p>
+</li>
+<li>
+<p><em>Broadcast</em> (send) it to the Panda (Sprite tab) to display the distance.</p>
+</li>
+</ul>
+<h2 id="getting-the-data-from-the-ultrasonic-sensor">Getting the data from the Ultrasonic Sensor.</h2>
+<ol>
+<li>
+<p>Switch to the <strong>Devices</strong> tab and enter the code below.</p>
+<p><img alt="" src="../images/p10_instruction6.png" /></p>
+</li>
+<li>
+<p>Click the <img alt="upload" src="../images/btnUpload.jpg" /> button to upload the code to the microcontroller.</p>
+</li>
+<li>
+<p>Next, switch to the <strong>Sprites</strong> tab and enter the code below.</p>
+<p><img alt="" src="../images/p10_instruction7.png" /></p>
+</li>
+<li>
+<p>Then, press <img alt="the Green Flag" src="../images/btnGreenFlag.jpg" />. You should be able to see the distance displayed on the Panda.</p>
+<p><img alt="" src="../images/p10_instruction8.png" /></p>
+</li>
+</ol>
+<h2 id="explanation">Explanation</h2>
+<p>In mBlock, the <strong>sprite</strong> and <strong>device</strong> sections each have their own coding tools.</p>
+<p>The device section connects to the microcontroller and reads the distance data from the ultrasonic sensor.</p>
+<p>This distance information is then sent directly to the sprite section.</p>
+<p><img alt="" src="../images/p10_instruction9.png" /></p>
+<p>The panda (which is a sprite) receives the distance message and displays it on the screen using the "say" block.</p>
+<h2 id="performing-a-conditional-statement">Performing a conditional statement</h2>
+<ol>
+<li>
+<p>Now let's create a variable name <em>distance</em>.</p>
+<p>Select <img alt="**Variables**" src="../images/btn_Variable.png" />.</p>
+<p>Then click <img alt="**Make a Variable**" src="../images/btn_MakeAVariable.png" />.</p>
+<p>Set the new variable name to <em>distance</em> and click <strong>OK</strong>.</p>
+<p><img alt="" src="../images/p10_instruction10.png" /></p>
+</li>
+<li>
+<p>Now we will assign a value to the variable.</p>
+<p>Switch to <strong>Sprites</strong> tab.</p>
+<p>Delete the previous code and replace it with this code.</p>
+<p><img alt="" src="../images/p10_instruction11.png" /></p>
+</li>
+<li>
+<p>Press the <img alt="Green flag" src="../images/btnGreenFlag.jpg" />.</p>
+<p>Then use the palm of your hand and place it close to the ultrasonic sensor and far away.</p>
+<p>The panda should say "too far" when your hand is far away from the sensor and "too close" when your hand is close to the sensor.</p>
+</li>
 </ol>
               
             </div>
