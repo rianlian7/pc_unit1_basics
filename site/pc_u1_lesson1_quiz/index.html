@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Lesson 0 - Setting up - Physical Computing - The Basics</title>
+    <title>End of Lesson 1 Quiz - Physical Computing - The Basics</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Lesson 0 - Setting up";
-        var mkdocs_page_input_path = "pc_l0.md";
+        var mkdocs_page_name = "End of Lesson 1 Quiz";
+        var mkdocs_page_input_path = "pc_u1_lesson1_quiz.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -47,31 +47,21 @@
                 <li class="toctree-l1"><a class="reference internal" href="../partList/">Part List</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Lesson 0 - Setting up</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#task-1-connect-the-microcontroller-to-the-computer">Task 1 - Connect the microcontroller to the computer</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#task-2-download-and-install-the-coding-environment">Task 2 - Download and install the coding environment</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#task-3-setting-up-your-microcontroller-arduino-uno-with-mblock">Task 3 - Setting up your microcontroller (Arduino Uno) with mBlock.</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#task-4-switching-between-live-and-upload-mode">Task 4 - Switching between Live and Upload mode</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#end-of-lesson-0-quiz">End of Lesson 0 Quiz</a>
-    </li>
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pc_l0/">Lesson 0 - Setting up</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Lesson 1 - Digital Output</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project1/">Project 1: Blink an LED</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project2/">Project 2: Blinking the LEDs in sequences</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project3/">Project 3: LED and Resistors</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_lesson1_quiz/">End of Lesson 1 Quiz</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">End of Lesson 1 Quiz</a>
+    <ul class="current">
+    </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Lesson 2 - Analogue Output</span></p>
@@ -116,7 +106,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Lesson 0 - Setting up</li>
+          <li class="breadcrumb-item">Lesson 1 - Digital Output</li>
+      <li class="breadcrumb-item active">End of Lesson 1 Quiz</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -125,98 +116,17 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="lesson-0-setting-up-hardware-and-software">Lesson 0: Setting up hardware and software</h1>
-<p>Setting up hardware and software</p>
-<h2 id="task-1-connect-the-microcontroller-to-the-computer">Task 1 - Connect the microcontroller to the computer</h2>
-<p><img alt="Image of connecting microcontroller to the computer" src="../images/l0_connect_makeruno.jpg" /></p>
-<h2 id="task-2-download-and-install-the-coding-environment">Task 2 - Download and install the coding environment</h2>
-<p>If you already have mBlock 5 installed, you can skip Task 2 and go to Task 3.</p>
-<ol>
-<li>
-<p>Go to <a href="https://www.mblock.cc/en/download/" title="mBlock Download&quot; target=&quot;_blank">mBlock Website</a></p>
-</li>
-<li>
-<p>Choose the suitable version for your operating system.</p>
-<p><img alt="" src="../images/l0_2_mBlockVersion.jpg" /></p>
-</li>
-<li>
-<p>Download and install mBlock 5 into your computer.</p>
-</li>
-<li>
-<p>Once you installed, launch mBlock 5 from the Start Menu <img alt="" src="../images/startMenu.png" /> or from your Desktop.</p>
-<p><img alt="" src="../images/l0_3_icon.jpg" /></p>
-</li>
-<li>
-<p>The user interface will look something like this
-    <img alt="" src="../images/l0_4_userInterface.jpg" /></p>
-</li>
-</ol>
-<h2 id="task-3-setting-up-your-microcontroller-arduino-uno-with-mblock">Task 3 - Setting up your microcontroller (Arduino Uno) with mBlock.</h2>
-<ol>
-<li>
-<p>Let's add the Arduino UNO into the <strong>device section</strong>.</p>
-<p><img alt="" src="../images/l0_5_addingDevice.jpg" /></p>
-</li>
-<li>
-<p>Make sure Arduino Uno device is selected in the <strong>devices section</strong>. Then click <strong>Connect</strong></p>
-<p><img alt="" src="../images/l0_6_toConnect.png" /></p>
-</li>
-<li>
-<p>You will see this pop-up menu, if it shows "No device can be detected...", then check <strong>Show all connectable devices</strong>.</p>
-<p><img alt="" src="../images/l0_7_showDevices.jpg" />
-<img alt="" src="../images/l0_8_selectCom.jpg" /></p>
-</li>
-<li>
-<p>Select the right COM device and click <strong>Connect</strong>. </p>
-<p><strong>If you are unsure if that is the Maker Uno, disconnect all USB devices except the Maker Uno.</strong></p>
-</li>
-<li>
-<p>Your <strong>Devices</strong> section should look like this.</p>
-<p><img alt="" src="../images/l0_9_deviceSection.jpg" /></p>
-</li>
-</ol>
-<h2 id="task-4-switching-between-live-and-upload-mode">Task 4 - Switching between Live and Upload mode</h2>
-<ol>
-<li>
-<p>In mBlock, there are two modes we use: <strong>Live</strong> mode and <strong>Upload</strong> mode.</p>
-<ul>
-<li>
-<p><strong>Live</strong>: This is when your code runs right away on the device. </p>
-<p>Remember to "Update Firmware" every time you switch to Live Mode.</p>
-</li>
-<li>
-<p><strong>Upload</strong>: Your code only runs when you click the <img alt="" src="../images/btnUpload.jpg" />  button.</p>
-</li>
-</ul>
-</li>
-<li>
-<p>You can change the mode through this <strong>Mode Switch</strong> toggle.</p>
-<p><img alt="" src="../images/btnModeSwitch.jpg" /></p>
-</li>
-<li>
-<p>When switching to <strong>Live</strong> coding, you will have to "Update Firmware".</p>
-<ol>
-<li>Switch to <strong>Live</strong> mode</li>
-<li>Click Update Firmware</li>
-<li>Click Updates</li>
-</ol>
-<p><img alt="" src="../images/l0_10_enableLiveCoding.png" /></p>
-</li>
-<li>
-<p>We will often switch between <strong>Live</strong> and <strong>Upload</strong> mode throughout this unit. Remember to "Update Firmware" every time we switch to <strong>Live</strong> mode.</p>
-</li>
-</ol>
-<h2 id="end-of-lesson-0-quiz">End of Lesson 0 Quiz</h2>
+                <h1 id="end-of-lesson-1-quiz">End of Lesson 1 Quiz</h1>
 <p>Scan the QR Code below to open the quiz.</p>
-<p><img alt="" src="../images/QRCode%20for%20Physical%20Computing%20-%20Level%201%20-%20Lesson%200%20Quiz%20%28Small%29.png" /></p>
-<p>Alternatively, you may open the link below and login using your Microsoft account to do the Quiz.
-<a href="https://forms.office.com/r/6VrUaX0GEW">Link to the Lesson 0 Quiz</a></p>
+<p><img alt="" src="../images/QRCode%20for%20Physical%20Computing%20-%20Lesson%201%20Digital%20Output%20Quiz.png" /></p>
+<p>Alternatively, you may open the link below and login using your Microsoft account to do the Quiz.</p>
+<p><a href="https://forms.office.com/r/QZcqugA3Zv">Link to the Lesson 1 Quiz</a></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../partList/" class="btn btn-neutral float-left" title="Part List"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../pc_u1_project1/" class="btn btn-neutral float-right" title="Project 1: Blink an LED">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../pc_u1_project3/" class="btn btn-neutral float-left" title="Project 3: LED and Resistors"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../pc_u1_project4/" class="btn btn-neutral float-right" title="Project 4: Fading LED">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -239,10 +149,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../partList/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../pc_u1_project3/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../pc_u1_project1/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../pc_u1_project4/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
