@@ -2,7 +2,9 @@ site_name: "Physical Computing - The Basics"
 nav:
   - About: index.md
   - 'Part List' : partList.md
-  - 'Lesson 0: Setting up': pc_l0.md
+  - 'Lesson 0: Setting up':
+    - 'Lesson 0: Setting up': pc_l0.md
+    - 'End of Lesson 0 Quiz' : pc_u1_lesson0_quiz.md
   - 'Lesson 1: Digital & Analogue Output': 
     - 'Project 1: Blink an LED': pc_u1_project1.md
     - 'Project 2: Blinking the LEDs in sequences': pc_u1_project2.md
@@ -18,6 +20,8 @@ nav:
     - 'Project 8: Potentiometer': pc_u1_project8.md
     - 'Project 9: IR Sensor': pc_u1_project9.md
     - 'Project 10: Ultrasonic Sensor': pc_u1_project10.md
+    - 'End of Lesson 3 Quiz' : pc_u1_lesson3_quiz.md
+  - 'Other projects' :
     - 'Project 11: Musical Distance Detector': pc_u1_project11.md
 
 theme: 
