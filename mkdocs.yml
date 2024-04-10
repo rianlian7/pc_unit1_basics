@@ -21,11 +21,20 @@ nav:
     - 'Project 9: IR Sensor': pc_u1_project9.md
     - 'Project 10: Ultrasonic Sensor': pc_u1_project10.md
     - 'End of Lesson 3 Quiz' : pc_u1_lesson3_quiz.md
-  - 'Other projects' :
-    - 'Project 11: Musical Distance Detector': pc_u1_project11.md
+  # - 'Lesson 4: Inputs and Outputs':
+  #   - 'Project 11: Interactive Light Show': pc_u1_project11.md
+  #   - 'Project 12: Light Chaser' : pc_u1_project12.md
+  #   - 'Project 13: Traffic Light Simulator' : pc_u1_project13.md
+
+
+  # - 'Other projects' :
+  #   - 'Project 11: Musical Distance Detector': pc_u1_project11.md
 
 theme: 
   name: readthedocs
   extra_css: custom.css
   collapse_navigation: True
   navigation_depth: 2
+
+# plugins:
+#     - with-pdf
