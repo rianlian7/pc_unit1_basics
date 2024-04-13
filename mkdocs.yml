@@ -23,9 +23,13 @@ nav:
     - 'End of Lesson 3 Quiz' : pc_u1_lesson3_quiz.md
   # - 'Lesson 4: Inputs and Outputs':
   #   - 'Project 11: Interactive Light Show': pc_u1_project11.md
-  #   - 'Project 12: Light Chaser' : pc_u1_project12.md
-  #   - 'Project 13: Traffic Light Simulator' : pc_u1_project13.md
-
+  #   - 'Project 12: Traffic Light Simulator' : pc_u1_project13.md
+  # - 'Lesson 5: Project Planning':
+  #   - 'Overview'
+  #   - 'Brainstorming'
+  #   - 'Analysing'
+  #   - 'Planning'
+  #   - 'Building '
 
   # - 'Other projects' :
   #   - 'Project 11: Musical Distance Detector': pc_u1_project11.md
