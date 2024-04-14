@@ -60,3 +60,6 @@ Now try adding two more sets of LEDs and Resistors to your board.
 Modify your code so that all three LED will light up in sequences.
 
 ***Once completed, inform your teacher to check your progress.***
+
+### Reflection
+[Click the here to reflect on your project.](https://forms.office.com/r/YR0ZL9FYJe)

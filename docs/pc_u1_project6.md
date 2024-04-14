@@ -39,3 +39,6 @@ Check the switch at the **top-left** of the microcontroller and make sure it is 
 Try increasing the speed of the song by changing the duration(beats) of each notes.
 
 ***Once completed, inform your teacher to check your progress.***
+
+### Reflection
+[Click the here to reflect on your project.](https://forms.office.com/r/YR0ZL9FYJe)

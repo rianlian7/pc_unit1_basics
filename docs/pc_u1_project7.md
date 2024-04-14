@@ -29,3 +29,6 @@ Come up with your own melody, or try finding a melody online. You may use this s
 Example: "Music notes for Mario Theme"
 
 ***Once completed, inform your teacher to check your progress.***
+
+### Reflection
+[Click the here to reflect on your project.](https://forms.office.com/r/YR0ZL9FYJe)
