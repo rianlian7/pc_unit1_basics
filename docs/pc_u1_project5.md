@@ -1,39 +1,42 @@
-# Project 5: Button
+# Project 5: Compose Basic Tone
 
-Objective: To program a button to perform an action.
+Objective: To program the microcontroller to compose a basic tone.
 
-Before we begin, switch to **Live mode**
+Before we begin, switch to **Upload Mode**
 
-![](images/toggle_LiveMode.jpg)
+![](images/toggle_UploadMode.jpg)
 
-1. Prepare these components
+Check the switch at the **top-left** of the microcontroller and make sure it is pushed to the left.
 
-    ![](images/p5_component1.jpg)
+*This is to enable the buzzer at pin 8*
 
-2. Construct the circuit as shown below.
+![](images/p6_switch.jpg)
 
-    ![](images/p5_circuit1.jpg)
+1. Write the following code and then press ![upload](images/btnUpload.jpg).
 
-3. After constructing the circuit, we will have to test if the button is working. 
+    ![](images/p6_code.jpg)
 
-4. Press the external push button switch and observe if LED 3 turns on.
+2. Does the microcontroller make any sounds? If not, make sure to check if you have flipped the switch to turn on the buzzer.
 
-    ![](images/p5_circuitExplain1.jpg)
+3. The buzzer on the microcontroller is playing hte basic tone "Do Re Mi Fa So La Ti Do". The diagram below shows the notes that are being played.
 
-5. If it is still does not work, try setting digital pin 3 to HIGH by placing this code on your workspace and double-clicking it. 
+    ![](images/p6_songNotes.jpg)
 
-    ![](images/p5_code1.jpg)
+4. Different musical notations are used to tell the duration of the note to be played. You can set the duration to be played by changing the value for the beat.
 
-6. If it is not working, please check your circuit.
-7. Once it works, type in the following code.
+    ![](images/p6_code2.jpg)
 
-    ![](images/p5_code2.jpg)
+5. Here is a table that shows the connection of the notes to the amount of beats. You will use this as a reference for the next project.
 
-8. Execute the code and observe the results. Does the LED on Pin 8 lights up when you press the button? If so, then you may proceed to the challenge.
+    ![](images/p6_songNotes2.jpg)
+
+6. For the beats in fraction:
+    - 1/2  is equal to 0.5 beats
+    - 1/4 is equal to 0.25 beats
 
 ### Challenge
-Create a circuit and program where when you press the button, **three different LED will light up.**
 
+Try increasing the speed of the song by changing the duration(beats) of each notes.
 
 ***Once completed, inform your teacher to check your progress.***
 

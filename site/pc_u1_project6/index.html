@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Project 5: Compose Basic Tone - Physical Computing - The Basics</title>
+    <title>Project 6: Compose Melody - Physical Computing - The Basics</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Project 5: Compose Basic Tone";
+        var mkdocs_page_name = "Project 6: Compose Melody";
         var mkdocs_page_input_path = "pc_u1_project6.md";
         var mkdocs_page_url = null;
       </script>
@@ -62,14 +62,16 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project3/">Project 3: LED and Resistors</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project4/">Project 4: Fading LED</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project4/">Project 4: Fade An LED</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_lesson1_quiz/">End of Lesson 1 Quiz</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Lesson 2: Melody Tone</span></p>
               <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Project 5: Compose Basic Tone</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project5/">Project 5: Compose Basic Tone</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Project 6: Compose Melody</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#challenge">Challenge</a>
     </li>
@@ -77,14 +79,12 @@
     </li>
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project7/">Project 6: Compose Melody</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_lesson2_quiz/">End of Lesson 2 Quiz</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Lesson 3: Digital & Analogue Input</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project5/">Project 7: Button</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project7/">Project 7: Button</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project8/">Project 8: Potentiometer</a>
                   </li>
@@ -110,7 +110,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Lesson 2: Melody Tone</li>
-      <li class="breadcrumb-item active">Project 5: Compose Basic Tone</li>
+      <li class="breadcrumb-item active">Project 6: Compose Melody</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -119,43 +119,32 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="project-6-compose-basic-tone">Project 6: Compose Basic Tone</h1>
-<p>Objective: To program the microcontroller to compose a basic tone.</p>
+                <h1 id="project-6-compose-melody">Project 6: Compose Melody</h1>
+<p>Objective: To program the microcontroller to compose a melody.</p>
 <p>Before we begin, switch to <strong>Upload Mode</strong></p>
 <p><img alt="" src="../images/toggle_UploadMode.jpg" /></p>
-<p>Check the switch at the <strong>top-left</strong> of the microcontroller and make sure it is pushed to the left.</p>
-<p><em>This is to enable the buzzer at pin 8</em></p>
-<p><img alt="" src="../images/p6_switch.jpg" /></p>
 <ol>
 <li>
-<p>Write the following code and then press <img alt="upload" src="../images/btnUpload.jpg" />.</p>
-<p><img alt="" src="../images/p6_code.jpg" /></p>
+<p>You are going to compose the "Happy Birthday" melody. Here below is the musical notes.</p>
+<p><img alt="" src="../images/p7_songNote.jpg" /></p>
 </li>
 <li>
-<p>Does the microcontroller make any sounds? If not, make sure to check if you have flipped the switch to turn on the buzzer.</p>
+<p>Write the following code and try to understand the relation between this code and the musical notes above.</p>
+<p><img alt="" src="../images/p7_code.jpg" /></p>
 </li>
 <li>
-<p>The buzzer on the microcontroller is playing hte basic tone "Do Re Mi Fa So La Ti Do". The diagram below shows the notes that are being played.</p>
-<p><img alt="" src="../images/p6_songNotes.jpg" /></p>
-</li>
-<li>
-<p>Different musical notations are used to tell the duration of the note to be played. You can set the duration to be played by changing the value for the beat.</p>
-<p><img alt="" src="../images/p6_code2.jpg" /></p>
-</li>
-<li>
-<p>Here is a table that shows the connection of the notes to the amount of beats. You will use this as a reference for the next project.</p>
-<p><img alt="" src="../images/p6_songNotes2.jpg" /></p>
-</li>
-<li>
-<p>For the beats in fraction:</p>
+<p>Now try make the melody of "Twinkle Twinkle Little Stars". Here are the notes for your reference.</p>
 <ul>
-<li>1/2  is equal to 0.5 beats</li>
-<li>1/4 is equal to 0.25 beats</li>
+<li>C4,C4,G4,G4,A4,A4,G4</li>
+<li>F4,F4,E4,E4,D4,D4,C4 </li>
 </ul>
+<p>All of the notes will be 0.25 beat except for the last note which is 1 beat.</p>
 </li>
 </ol>
 <h3 id="challenge">Challenge</h3>
-<p>Try increasing the speed of the song by changing the duration(beats) of each notes.</p>
+<p>Come up with your own melody, or try finding a melody online. You may use this search term.
+"Music notes for (music name)".</p>
+<p>Example: "Music notes for Mario Theme"</p>
 <p><strong><em>Once completed, inform your teacher to check your progress.</em></strong></p>
 <h3 id="reflection">Reflection</h3>
 <p><a href="https://forms.office.com/r/YR0ZL9FYJe">Click the here to reflect on your project.</a></p>
@@ -163,8 +152,8 @@
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../pc_u1_lesson1_quiz/" class="btn btn-neutral float-left" title="End of Lesson 1 Quiz"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../pc_u1_project7/" class="btn btn-neutral float-right" title="Project 6: Compose Melody">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../pc_u1_project5/" class="btn btn-neutral float-left" title="Project 5: Compose Basic Tone"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../pc_u1_lesson2_quiz/" class="btn btn-neutral float-right" title="End of Lesson 2 Quiz">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -187,10 +176,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../pc_u1_lesson1_quiz/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../pc_u1_project5/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../pc_u1_project7/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../pc_u1_lesson2_quiz/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

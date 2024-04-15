@@ -1,42 +1,32 @@
-# Project 6: Compose Basic Tone
+# Project 6: Compose Melody
 
-Objective: To program the microcontroller to compose a basic tone.
+Objective: To program the microcontroller to compose a melody.
 
 Before we begin, switch to **Upload Mode**
 
 ![](images/toggle_UploadMode.jpg)
 
-Check the switch at the **top-left** of the microcontroller and make sure it is pushed to the left.
+1. You are going to compose the "Happy Birthday" melody. Here below is the musical notes.
 
-*This is to enable the buzzer at pin 8*
+    ![](images/p7_songNote.jpg)
 
-![](images/p6_switch.jpg)
+2. Write the following code and try to understand the relation between this code and the musical notes above.
 
-1. Write the following code and then press ![upload](images/btnUpload.jpg).
+    ![](images/p7_code.jpg)
 
-    ![](images/p6_code.jpg)
+3. Now try make the melody of "Twinkle Twinkle Little Stars". Here are the notes for your reference.
 
-2. Does the microcontroller make any sounds? If not, make sure to check if you have flipped the switch to turn on the buzzer.
+    - C4,C4,G4,G4,A4,A4,G4
+    - F4,F4,E4,E4,D4,D4,C4 
 
-3. The buzzer on the microcontroller is playing hte basic tone "Do Re Mi Fa So La Ti Do". The diagram below shows the notes that are being played.
 
-    ![](images/p6_songNotes.jpg)
-
-4. Different musical notations are used to tell the duration of the note to be played. You can set the duration to be played by changing the value for the beat.
-
-    ![](images/p6_code2.jpg)
-
-5. Here is a table that shows the connection of the notes to the amount of beats. You will use this as a reference for the next project.
-
-    ![](images/p6_songNotes2.jpg)
-
-6. For the beats in fraction:
-    - 1/2  is equal to 0.5 beats
-    - 1/4 is equal to 0.25 beats
+    All of the notes will be 0.25 beat except for the last note which is 1 beat.
 
 ### Challenge
+Come up with your own melody, or try finding a melody online. You may use this search term.
+"Music notes for (music name)".
 
-Try increasing the speed of the song by changing the duration(beats) of each notes.
+Example: "Music notes for Mario Theme"
 
 ***Once completed, inform your teacher to check your progress.***
 

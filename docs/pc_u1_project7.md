@@ -1,32 +1,39 @@
-# Project 7: Compose Melody
+# Project 7: Button
 
-Objective: To program the microcontroller to compose a melody.
+Objective: To program a button to perform an action.
 
-Before we begin, switch to **Upload Mode**
+Before we begin, switch to **Live mode**
 
-![](images/toggle_UploadMode.jpg)
+![](images/toggle_LiveMode.jpg)
 
-1. You are going to compose the "Happy Birthday" melody. Here below is the musical notes.
+1. Prepare these components
 
-    ![](images/p7_songNote.jpg)
+    ![](images/p5_component1.jpg)
 
-2. Write the following code and try to understand the relation between this code and the musical notes above.
+2. Construct the circuit as shown below.
 
-    ![](images/p7_code.jpg)
+    ![](images/p5_circuit1.jpg)
 
-3. Now try make the melody of "Twinkle Twinkle Little Stars". Here are the notes for your reference.
+3. After constructing the circuit, we will have to test if the button is working. 
 
-    - C4,C4,G4,G4,A4,A4,G4
-    - F4,F4,E4,E4,D4,D4,C4 
+4. Press the external push button switch and observe if LED 3 turns on.
 
+    ![](images/p5_circuitExplain1.jpg)
 
-    All of the notes will be 0.25 beat except for the last note which is 1 beat.
+5. If it is still does not work, try setting digital pin 3 to HIGH by placing this code on your workspace and double-clicking it. 
+
+    ![](images/p5_code1.jpg)
+
+6. If it is not working, please check your circuit.
+7. Once it works, type in the following code.
+
+    ![](images/p5_code2.jpg)
+
+8. Execute the code and observe the results. Does the LED on Pin 8 lights up when you press the button? If so, then you may proceed to the challenge.
 
 ### Challenge
-Come up with your own melody, or try finding a melody online. You may use this search term.
-"Music notes for (music name)".
+Create a circuit and program where when you press the button, **three different LED will light up.**
 
-Example: "Music notes for Mario Theme"
 
 ***Once completed, inform your teacher to check your progress.***
 
