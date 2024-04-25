@@ -42,43 +42,38 @@ If you already have PictoBlox installed, you can skip Task 2 and go to Task 3.
 
     ![alt text](arduinoUnoButton.png)
 
-3. You may see one or more Device COM to connect to. 
+3. You might see a list of devices to connect to. If there's only one, click "Connect".
 
-    If you only see one Device to connect to, then click it's Connect button.
-
-    But if you see more that one Device to connect to. Then unplug the microcontroller from your computer, and click the Refresh Button. One of the device should dissappear. Then reconnect the microcontroller to the computer and click Refresh again. 
+    If you see multiple options:
 
     ![alt text](connectToPortScreen.png) 
 
 
-    **If you are unsure if that is the Maker Uno, disconnect all USB devices except the Maker Uno.**
+    Unplug your microcontroller from the computer.
 
-5. Your **Devices** section should look like this.
+    Click "Refresh" on the connection list. (One device should disappear)
 
-    ![](images/l0_9_deviceSection.jpg)
+    Reconnect your microcontroller and click "Refresh" again.
+    
+    Now you should be able to connect to the correct device!
 
-## Task 4 - Switching between Live and Upload mode
+5. You can find the codes for the microcontroller in the new code pallette button named "Arduino Uno".
 
-1. In mBlock, there are two modes we use: **Live** mode and **Upload** mode.
+    ![alt text](arduinoUnoCodePallette.png)
+
+## Task 4 - Switching between Stage and Upload mode
+
+1. In PictoBlox, there are two modes we use: **Stage** mode and **Upload** mode.
 
 
-    - **Live**: This is when your code runs right away on the device. 
+    - **Stage**: This is when your code runs right away on the device. 
         
-        Remember to "Update Firmware" every time you switch to Live Mode.
+        Remember to "Update Firmware" ![](UploadFirmwareBtn.png) every time you switch to Stage Mode.
 
-    - **Upload**: Your code only runs when you click the ![](images/btnUpload.jpg)  button.
+    - **Upload**: Your code only runs when you click the ![](pictoBloxUploadBtn.png)  button.
 
 
 2. You can change the mode through this **Mode Switch** toggle.
 
-    ![](images/btnModeSwitch.jpg)
-
-3. When switching to **Live** coding, you will have to "Update Firmware".
-    1. Switch to **Live** mode
-    2. Click Update Firmware
-    3. Click Updates
-
-    ![](images/l0_10_enableLiveCoding.png)
-
-4. We will often switch between **Live** and **Upload** mode throughout this unit. Remember to "Update Firmware" every time we switch to **Live** mode.
+    ![alt text](pictoBloxModeSwitchBtn.png)
 

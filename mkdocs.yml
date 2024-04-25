@@ -3,7 +3,7 @@ nav:
   - About: index.md
   - 'Part List' : partList.md
   - 'Lesson 0: Setting up':
-    - 'Lesson 0: Setting up': pc_l0.md
+    - 'Lesson 0: Setting up': pc_l0_v2.md
     - 'End of Lesson 0 Quiz' : pc_u1_lesson0_quiz.md
   - 'Lesson 1: Digital & Analogue Output': 
     - 'Project 1: Blink an LED': pc_u1_project1.md
