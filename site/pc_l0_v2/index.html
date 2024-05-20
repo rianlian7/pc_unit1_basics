@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Project 5: Compose Basic Tone - Physical Computing - The Basics</title>
+    <title>Lesson 0: Setting up - Physical Computing - The Basics</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Project 5: Compose Basic Tone";
-        var mkdocs_page_input_path = "pc_u1_project5.md";
+        var mkdocs_page_name = "Lesson 0: Setting up";
+        var mkdocs_page_input_path = "pc_l0_v2.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -48,8 +48,18 @@
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Lesson 0: Setting up</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../pc_l0_v2/">Lesson 0: Setting up</a>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Lesson 0: Setting up</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#task-1-connect-the-microcontroller-to-the-computer">Task 1 - Connect the microcontroller to the computer</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#task-2-download-and-install-the-coding-environment">Task 2 - Download and install the coding environment</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#task-3-setting-up-your-microcontroller-arduino-uno-with-mblock">Task 3 - Setting up your microcontroller (Arduino Uno) with mBlock.</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#task-4-switching-between-stage-and-upload-mode">Task 4 - Switching between Stage and Upload mode</a>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_lesson0_quiz/">End of Lesson 0 Quiz</a>
                   </li>
@@ -68,14 +78,8 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Lesson 2: Melody Tone</span></p>
-              <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Project 5: Compose Basic Tone</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#challenge">Challenge</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#reflection">Reflection</a>
-    </li>
-    </ul>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project5/">Project 5: Compose Basic Tone</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project6/">Project 6: Compose Melody</a>
                   </li>
@@ -109,8 +113,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-          <li class="breadcrumb-item">Lesson 2: Melody Tone</li>
-      <li class="breadcrumb-item active">Project 5: Compose Basic Tone</li>
+          <li class="breadcrumb-item">Lesson 0: Setting up</li>
+      <li class="breadcrumb-item active">Lesson 0: Setting up</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -119,52 +123,85 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="project-5-compose-basic-tone">Project 5: Compose Basic Tone</h1>
-<p>Objective: To program the microcontroller to compose a basic tone.</p>
-<p>Before we begin, switch to <strong>Upload Mode</strong></p>
-<p><img alt="" src="../images/toggle_UploadMode.jpg" /></p>
-<p>Check the switch at the <strong>top-left</strong> of the microcontroller and make sure it is pushed to the left.</p>
-<p><em>This is to enable the buzzer at pin 8</em></p>
-<p><img alt="" src="../images/p6_switch.jpg" /></p>
+                <h1 id="lesson-0-setting-up-hardware-and-software">Lesson 0: Setting up hardware and software</h1>
+<p>Setting up hardware and software</p>
+<h2 id="task-1-connect-the-microcontroller-to-the-computer">Task 1 - Connect the microcontroller to the computer</h2>
+<p><img alt="Image of connecting microcontroller to the computer" src="../images/l0_connect_makeruno.jpg" /></p>
+<h2 id="task-2-download-and-install-the-coding-environment">Task 2 - Download and install the coding environment</h2>
+<p>If you already have PictoBlox installed, you can skip Task 2 and go to Task 3.</p>
 <ol>
 <li>
-<p>Write the following code and then press <img alt="upload" src="../images/btnUpload.jpg" />.</p>
-<p><img alt="" src="../images/p6_code.jpg" /></p>
+<p>Go to <a href="https://thestempedia.com/product/pictoblox/download-pictoblox/" title="PictoBlox Website&quot; target=&quot;_blank">PictoBlox Website</a></p>
 </li>
 <li>
-<p>Does the microcontroller make any sounds? If not, make sure to check if you have flipped the switch to turn on the buzzer.</p>
+<p>Choose the suitable version for your operating system.</p>
+<p><img alt="alt text" src="../setup_suitable_os.png" /></p>
 </li>
 <li>
-<p>The buzzer on the microcontroller is playing hte basic tone "Do Re Mi Fa So La Ti Do". The diagram below shows the notes that are being played.</p>
-<p><img alt="" src="../images/p6_songNotes.jpg" /></p>
+<p>Download and install PictoBlox into your computer.</p>
 </li>
 <li>
-<p>Different musical notations are used to tell the duration of the note to be played. You can set the duration to be played by changing the value for the beat.</p>
-<p><img alt="" src="../images/p6_code2.jpg" /></p>
+<p>Once you installed, launch PictoBlox 5 from the Start Menu <img alt="" src="../images/startMenu.png" /> or from your Desktop.</p>
+<p><img alt="alt text" src="../pictobloxIcon.png" /></p>
 </li>
 <li>
-<p>Here is a table that shows the connection of the notes to the amount of beats. You will use this as a reference for the next project.</p>
-<p><img alt="" src="../images/p6_songNotes2.jpg" /></p>
+<p>In the first screen, select Blocks.</p>
+<p><img alt="alt text" src="../blocksButton.png" /></p>
 </li>
 <li>
-<p>For the beats in fraction:</p>
-<ul>
-<li>1/2  is equal to 0.5 beats</li>
-<li>1/4 is equal to 0.25 beats</li>
-</ul>
+<p>Your screen should look something like this.</p>
+<p><img alt="alt text" src="../pictobloxMainUI.png" /></p>
 </li>
 </ol>
-<h3 id="challenge">Challenge</h3>
-<p>Try increasing the speed of the song by changing the duration(beats) of each notes.</p>
-<p><strong><em>Once completed, inform your teacher to check your progress.</em></strong></p>
-<h3 id="reflection">Reflection</h3>
-<p><a href="https://forms.office.com/r/YR0ZL9FYJe">Click the here to reflect on your project.</a></p>
+<h2 id="task-3-setting-up-your-microcontroller-arduino-uno-with-mblock">Task 3 - Setting up your microcontroller (Arduino Uno) with mBlock.</h2>
+<ol>
+<li>
+<p>First, we have to set the board to Arduino Uno. Click <strong>Board</strong>.</p>
+<p><img alt="alt text" src="../boardButton.png" /></p>
+</li>
+<li>
+<p>Select Arduino Uno.</p>
+<p><img alt="alt text" src="../arduinoUnoButton.png" /></p>
+</li>
+<li>
+<p>You might see a list of devices to connect to. If there's only one, click "Connect".</p>
+<p>If you see multiple options:</p>
+<p><img alt="alt text" src="../connectToPortScreen.png" /> </p>
+<p>Unplug your microcontroller from the computer.</p>
+<p>Click "Refresh" on the connection list. (One device should disappear)</p>
+<p>Reconnect your microcontroller and click "Refresh" again.</p>
+<p>Now you should be able to connect to the correct device!</p>
+</li>
+<li>
+<p>You can find the codes for the microcontroller in the new code pallette button named "Arduino Uno".</p>
+<p><img alt="alt text" src="../arduinoUnoCodePallette.png" /></p>
+</li>
+</ol>
+<h2 id="task-4-switching-between-stage-and-upload-mode">Task 4 - Switching between Stage and Upload mode</h2>
+<ol>
+<li>
+<p>In PictoBlox, there are two modes we use: <strong>Stage</strong> mode and <strong>Upload</strong> mode.</p>
+<ul>
+<li>
+<p><strong>Stage</strong>: This is when your code runs right away on the device. </p>
+<p>Remember to "Update Firmware" <img alt="" src="../UploadFirmwareBtn.png" /> every time you switch to Stage Mode.</p>
+</li>
+<li>
+<p><strong>Upload</strong>: Your code only runs when you click the <img alt="" src="../pictoBloxUploadBtn.png" />  button.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>You can change the mode through this <strong>Mode Switch</strong> toggle.</p>
+<p><img alt="alt text" src="../pictoBloxModeSwitchBtn.png" /></p>
+</li>
+</ol>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../pc_u1_lesson1_quiz/" class="btn btn-neutral float-left" title="End of Lesson 1 Quiz"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../pc_u1_project6/" class="btn btn-neutral float-right" title="Project 6: Compose Melody">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../partList/" class="btn btn-neutral float-left" title="Part List"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../pc_u1_lesson0_quiz/" class="btn btn-neutral float-right" title="End of Lesson 0 Quiz">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -187,10 +224,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../pc_u1_lesson1_quiz/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../partList/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../pc_u1_project6/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../pc_u1_lesson0_quiz/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

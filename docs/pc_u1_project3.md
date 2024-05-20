@@ -35,6 +35,12 @@ The breadboard contains conductive material underneath the pinholes.
 
 ![](images/p3_4_breadboard.jpg)
 <br><br><br>
+## What is a resistor?
+A resistor is used to resist the flow of electricity. We can use resistor to reduce the brightness of an LED.
+The picture below shows how to determine the amount of resistance in a resistor.
+![](images/resistorTable.png)
+
+
 
 ## Building the circuit and code
 

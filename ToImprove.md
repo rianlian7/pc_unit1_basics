@@ -1,0 +1,3 @@
+- Add videos to explain the knowledge
+- Add Resistor Table and explain how to read resistance
+- Add different image guide for potentiometer, buttons.
