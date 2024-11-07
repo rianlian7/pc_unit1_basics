@@ -4,23 +4,23 @@ nav:
   - 'Part List' : partList.md
   - 'Lesson 0: Setting up':
     - 'Lesson 0: Setting up': pc_l0_v2.md
-    - 'End of Lesson 0 Quiz' : pc_u1_lesson0_quiz.md
-  - 'Lesson 1: Digital & Analogue Output': 
-    - 'Project 1: Blink an LED': pc_u1_project1.md
-    - 'Project 2: Blinking the LEDs in sequences': pc_u1_project2.md
-    - 'Project 3: LED and Resistors': pc_u1_project3.md
-    - 'Project 4: Fade An LED': pc_u1_project4.md
-    - 'End of Lesson 1 Quiz' : pc_u1_lesson1_quiz.md
-  - 'Lesson 2: Melody Tone': 
-    - 'Project 5: Compose Basic Tone': pc_u1_project5.md
-    - 'Project 6: Compose Melody': pc_u1_project6.md
-    - 'End of Lesson 2 Quiz' : pc_u1_lesson2_quiz.md
-  - 'Lesson 3: Digital & Analogue Input': 
-    - 'Project 7: Button': pc_u1_project7.md
-    - 'Project 8: Potentiometer': pc_u1_project8.md
-    - 'Project 9: IR Sensor': pc_u1_project9.md
-    - 'Project 10: Ultrasonic Sensor': pc_u1_project10.md
-    - 'End of Lesson 3 Quiz' : pc_u1_lesson3_quiz.md
+    # - 'End of Lesson 0 Quiz' : pc_u1_lesson0_quiz.md
+  # - 'Lesson 1: Digital & Analogue Output': 
+  #   - 'Project 1: Blink an LED': pc_u1_project1.md
+  #   - 'Project 2: Blinking the LEDs in sequences': pc_u1_project2.md
+  #   - 'Project 3: LED and Resistors': pc_u1_project3.md
+  #   - 'Project 4: Fade An LED': pc_u1_project4.md
+  #   - 'End of Lesson 1 Quiz' : pc_u1_lesson1_quiz.md
+  # - 'Lesson 2: Melody Tone': 
+  #   - 'Project 5: Compose Basic Tone': pc_u1_project5.md
+  #   - 'Project 6: Compose Melody': pc_u1_project6.md
+  #   - 'End of Lesson 2 Quiz' : pc_u1_lesson2_quiz.md
+  # - 'Lesson 3: Digital & Analogue Input': 
+  #   - 'Project 7: Button': pc_u1_project7.md
+  #   - 'Project 8: Potentiometer': pc_u1_project8.md
+  #   - 'Project 9: IR Sensor': pc_u1_project9.md
+   # - 'Project 10: Ultrasonic Sensor': pc_u1_project10.md
+  #   - 'End of Lesson 3 Quiz' : pc_u1_lesson3_quiz.md
   # - 'Lesson 4: Inputs and Outputs':
   #   - 'Project 11: Interactive Light Show': pc_u1_project11.md
   #   - 'Project 12: Traffic Light Simulator' : pc_u1_project13.md

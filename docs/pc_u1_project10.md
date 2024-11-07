@@ -2,11 +2,9 @@
 
 Objective: To program the microcontroller to read value from an ultrasonic sensor to detect distances.
 
-Before we begin, switch to **Upload Mode**
+Before we begin, switch to **Stage Mode**
 
-![](images/toggle_UploadMode.jpg)
-
-## Installing the Upload Mode Broadcast extension.
+![](images/pictoblox/toggle_stageMode.png)
 
 1. Construct the circuit below. You may use a breadboard if you like.
     - VCC  ➡️  5V
@@ -18,77 +16,21 @@ Before we begin, switch to **Upload Mode**
 
     Ultrasonic sensors emit high-frequency sound waves and measure the time it takes for the sound to bounce back from an object. This allows us to calculate the distance between the sensor and the object. In this project, we'll use this concept to create a musical distance detector!
 
-1. Then, we must install the extension **Upload Mode Broadcast** in mBlock 5 in the **Devices** tab.
-
-    Make sure the devices tab is selected.
-    
-    ![](images/tabDevices.jpg)
-
-    Then, at the bottom of the screen, click the **extension** ![](images/btn_extension.png) button.
-
-    ![](images/p10_instruction1.png)
-
-1. Search for **Upload Mode Broadcast**. Then look for the extension and click **+ Add**.
-
-    ![](images/p10_instruction2.png)
-
-    Once you added the extensions, you will see a new section from your coding toolbox.
-
-    ![](images/p10_instruction3.png)
-
-1. Next, we will also install the **Upload Mode Broadcast** for the **Sprites** tab.
-
-    Click the **Sprite** tab. ![](images/tabSprites.jpg)
-
-1. Click the Extensions button ![](images/btn_extension.png).
-
-    Then add the **Upload Mode Broadcast**.
-
-
-### Remember
-
-The **Devices** and **Sprites** tab each have their own coding workspace.
-
-The code in **Devices** tab will only work in the **Devices** section.
-The code in **Sprites** tab will only work in **Sprites** section.
-
-
-Now we are going to code the microcontroller to:
-
-- *Receive* distance data from the ultrasonic sensor into the microcontroller (Devices tab), and
-
-- *Broadcast* (send) it to the Panda (Sprite tab) to display the distance.
-
-
+1. Click the board
 
 ## Getting the data from the Ultrasonic Sensor.
 
-1. Switch to the **Devices** tab and enter the code below.
 
-    ![](images/p10_instruction6.png)
+1. Before getting started, make sure Pictoblox is connected to your microcontroller and your firmware is updated.
 
-1. Click the ![upload](images/btnUpload.jpg) button to upload the code to the microcontroller.
+1. Create the code below.
 
-1. Next, switch to the **Sprites** tab and enter the code below.
+![alt text](images/ultrasonic/ultrasonic_code1.png)
 
-    ![](images/p10_instruction7.png)
+1. Then, press ![the Green Flag](images/btnGreenFlag.jpg). You should be able to see the distance displayed on the Sprite.
 
-1. Then, press ![the Green Flag](images/btnGreenFlag.jpg). You should be able to see the distance displayed on the Panda.
+    ![alt text](images\ultrasonic\ultrasonic_result1.png)
 
-    ![](images/p10_instruction8.png)
-
-
-## Explanation
-
-In mBlock, the **sprite** and **device** sections each have their own coding tools.
-
-The device section connects to the microcontroller and reads the distance data from the ultrasonic sensor.
-
-This distance information is then sent directly to the sprite section.
-
-![](images/p10_instruction9.png)
-
-The panda (which is a sprite) receives the distance message and displays it on the screen using the "say" block.
 
 ## Performing a conditional statement
 
@@ -100,27 +42,25 @@ The panda (which is a sprite) receives the distance message and displays it on t
 
     Set the new variable name to *distance* and click **OK**.
 
-    ![](images/p10_instruction10.png)
+    ![alt text](images\ultrasonic\ultrasonic_instruction1.png)
 
 
-1. Now we will assign a value to the variable.
+1. Now modify your code to look like this.
 
-    Switch to **Sprites** tab.
-
-    Delete the previous code and replace it with this code.
-
-    ![](images/p10_instruction11.png)
+    ![alt text](images\ultrasonic\ultrasonic_code2.png)
 
 1. Press the ![Green flag](images/btnGreenFlag.jpg).
 
     Then use the palm of your hand and place it close to the ultrasonic sensor and far away.
 
-    The panda should say "too far" when your hand is far away from the sensor and "too close" when your hand is close to the sensor.
+    The sprite should say "too far" when your hand is far away from the sensor and "too close" when your hand is close to the sensor.
 
 
+## Experiment
 
-
-
+1. Try changing the condition to other distances. (distance < 100)
+2. Play a sound when your hand is too close to the sensor.
+<!-- 
 
 ### Reflection
-[Click the here to reflect on your project.](https://forms.office.com/r/YR0ZL9FYJe)
+[Click the here to reflect on your project.](https://forms.office.com/r/YR0ZL9FYJe) -->
