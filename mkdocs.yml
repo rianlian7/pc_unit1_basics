@@ -21,6 +21,8 @@ nav:
     - 'Project 9: IR Sensor': pc_u1_project9.md
     - 'Project 10: Ultrasonic Sensor': pc_u1_project10.md
     - 'End of Lesson 3 Quiz' : pc_u1_lesson3_quiz.md
+  - 'Final Project':
+    - 'Dodge the Asteroid' : endOfTermProject1.md
   # - 'Lesson 4: Inputs and Outputs':
   #   - 'Project 11: Interactive Light Show': pc_u1_project11.md
   #   - 'Project 12: Traffic Light Simulator' : pc_u1_project13.md
