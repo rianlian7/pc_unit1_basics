@@ -25,6 +25,7 @@ nav:
     - 'Dodge the Asteroid' : endOfTermProject1.md
   - 'Level 2':
     - 'Splat Game (Jumping + Button)' : level2_splatGame.md
+    - 'Mini Lightshow Game (Multiple LED)' : level2_miniLightshowGame.md
   # - 'Lesson 4: Inputs and Outputs':
   #   - 'Project 11: Interactive Light Show': pc_u1_project11.md
   #   - 'Project 12: Traffic Light Simulator' : pc_u1_project13.md
