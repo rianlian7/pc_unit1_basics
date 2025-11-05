@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Project 6: Compose Melody - Physical Computing - The Basics</title>
+    <title>Splat Game (Jumping + Button) - Physical Computing - The Basics</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Project 6: Compose Melody";
-        var mkdocs_page_input_path = "pc_u1_project6.md";
+        var mkdocs_page_name = "Splat Game (Jumping + Button)";
+        var mkdocs_page_input_path = "level2_splatGame.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -68,16 +68,10 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Lesson 2: Melody Tone</span></p>
-              <ul class="current">
+              <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project5/">Project 5: Compose Basic Tone</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Project 6: Compose Melody</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#challenge">Challenge</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#reflection">Reflection</a>
-    </li>
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../pc_u1_project6/">Project 6: Compose Melody</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../pc_u1_lesson2_quiz/">End of Lesson 2 Quiz</a>
                   </li>
@@ -101,8 +95,24 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Level 2</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../level2_splatGame/">Splat Game (Jumping + Button)</a>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Splat Game (Jumping + Button)</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#step-0-switch-to-live-mode">⚙️ Step 0 — Switch to Live Mode</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-1-prepare-your-components">🧩 Step 1 — Prepare Your Components</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-2-build-the-circuit">🔌 Step 2 — Build the Circuit</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-3-test-the-push-button">🧠 Step 3 — Test the Push Button</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-4-download-the-template">💾 Step 4 — Download the Template</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-5-customize-your-game">🎨 Step 5 — Customize Your Game</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-6-add-button-control">🚀 Step 6 — Add Button Control</a>
+    </li>
+    </ul>
                   </li>
               </ul>
       </div>
@@ -119,8 +129,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-          <li class="breadcrumb-item">Lesson 2: Melody Tone</li>
-      <li class="breadcrumb-item active">Project 6: Compose Melody</li>
+          <li class="breadcrumb-item">Level 2</li>
+      <li class="breadcrumb-item active">Splat Game (Jumping + Button)</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -129,41 +139,100 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="project-6-compose-melody">Project 6: Compose Melody</h1>
-<p>Objective: To program the microcontroller to compose a melody.</p>
-<p>Before we begin, switch to <strong>Upload Mode</strong></p>
-<p><img alt="" src="../images/toggle_UploadMode.jpg" /></p>
+                <h1 id="splat-game-jumping-button">🕹️ Splat Game (Jumping + Button)</h1>
+<hr />
+<h2 id="step-0-switch-to-live-mode">⚙️ Step 0 — Switch to Live Mode</h2>
+<p>Before we begin, make sure your <strong>PictoBlox</strong> is set to <strong>Live Mode</strong>.</p>
+<p><img alt="Toggle Live Mode" src="../images/toggle_LiveMode.jpg" /></p>
+<hr />
+<h2 id="step-1-prepare-your-components">🧩 Step 1 — Prepare Your Components</h2>
+<p>Gather the following components before you start building:</p>
+<p><img alt="Components for Buttons" src="../images/componentsForButtons.png" /></p>
+<hr />
+<h2 id="step-2-build-the-circuit">🔌 Step 2 — Build the Circuit</h2>
+<p>Construct your circuit as shown below:</p>
+<p><img alt="Circuit Diagram" src="../image-1.png" /></p>
+<hr />
+<h2 id="step-3-test-the-push-button">🧠 Step 3 — Test the Push Button</h2>
+<p>Before coding, test your button connection:</p>
 <ol>
-<li>
-<p>You are going to compose the "Happy Birthday" melody. Here below is the musical notes.</p>
-<p><img alt="" src="../images/p7_songNote.jpg" /></p>
-</li>
-<li>
-<p>Write the following code and try to understand the relation between this code and the musical notes above.</p>
-<p><img alt="" src="../images/p7_code.jpg" /></p>
-</li>
-<li>
-<p>Now try make the melody of "Twinkle Twinkle Little Stars". Here are the notes for your reference.</p>
-<ul>
-<li>C4,C4,G4,G4,A4,A4,G4</li>
-<li>F4,F4,E4,E4,D4,D4,C4 </li>
+<li>Press the external push button.  </li>
+<li><strong>Observe:</strong>  <ul>
+<li>LED 3 <strong>turns ON</strong> before pressing.  </li>
+<li>LED 3 <strong>turns OFF</strong> when the button is pressed.  </li>
 </ul>
-<p>All of the notes will be 0.25 beat except for the last note which is 1 beat.</p>
 </li>
 </ol>
-<h3 id="challenge">Challenge</h3>
-<p>Come up with your own melody, or try finding a melody online. You may use this search term.
-"Music notes for (music name)".</p>
-<p>Example: "Music notes for Mario Theme"</p>
-<p><strong><em>Once completed, inform your teacher to check your progress.</em></strong></p>
-<h3 id="reflection">Reflection</h3>
-<p><a href="https://forms.office.com/r/YR0ZL9FYJe">Click the here to reflect on your project.</a></p>
+<p>If this doesn’t happen, check your wiring.<br />
+Still not working? Try this test:</p>
+<blockquote>
+<p>💡 <strong>Tip:</strong><br />
+Drag the block shown below into your workspace, set <strong>Pin 3</strong> to <strong>output = high</strong>, and <strong>double-click</strong> it to test.</p>
+</blockquote>
+<p><img alt="Button Test Code" src="../image-3.png" /></p>
+<hr />
+<h2 id="step-4-download-the-template">💾 Step 4 — Download the Template</h2>
+<p><a href="https://knewtonglobalschools-my.sharepoint.com/:u:/g/personal/michael_gau_knewton_edu_my/EbzNbQWCTaJKlvsOD3legrYBVhQc26w7iyf3qpBHe8fRUw?e=08J1ax">⬇️ Download the Splat Game Template</a></p>
+<p>Use this template to get started quickly.</p>
+<hr />
+<h2 id="step-5-customize-your-game">🎨 Step 5 — Customize Your Game</h2>
+<p>You can modify the following:</p>
+<ul>
+<li><strong>Costumes</strong> (e.g. balloons, characters)  </li>
+<li><strong>Backgrounds</strong> (must include a red border)  </li>
+<li><strong>Sound Effects</strong>  </li>
+<li><strong>Code</strong> (optional, as long as it remains a <em>Splat Game</em>)</li>
+</ul>
+<p>If you can’t download the template, use the code blocks shown below for each sprite.</p>
+<hr />
+<h3 id="background">🖼️ Background</h3>
+<p>Any background is fine as long as it includes a <strong>red border</strong>.</p>
+<p><img alt="Background Example" src="../image-4.png" /></p>
+<hr />
+<h3 id="balloon-sprite">🎈 Balloon Sprite</h3>
+<ol>
+<li>One version should be the <strong>normal balloon</strong> (rotated horizontally).  </li>
+<li>The other version should be the <strong>popped balloon</strong>.</li>
+</ol>
+<p><img alt="Balloon Sprite 1" src="../image-5.png" />
+<img alt="Balloon Sprite 2" src="../image-6.png" /></p>
+<hr />
+<h3 id="character-sprite">🧍 Character Sprite</h3>
+<p>Use any sprite that can <strong>jump over the projectile</strong>.<br />
+- The <strong>first costume</strong> is the default.<br />
+- The <strong>second costume</strong> is for the <strong>jump animation</strong>.</p>
+<p><img alt="Character Sprite 1" src="../image-7.png" />
+<img alt="Character Sprite 2" src="../image-8.png" /></p>
+<hr />
+<h2 id="step-6-add-button-control">🚀 Step 6 — Add Button Control</h2>
+<p>Now, let’s make your <strong>external button</strong> control the character’s jump.</p>
+<h3 id="sprite-section">🧩 Sprite Section</h3>
+<ol>
+<li>
+<p>Create a new message called <strong>“Button”</strong>.<br />
+<img alt="Create Message" src="../image-9.png" />  </p>
+</li>
+<li>
+<p>Replace the event block:  </p>
+<blockquote>
+<p>Change <strong>“When space key pressed”</strong> → <strong>“When I receive [Button]”</strong><br />
+<img alt="Receive Message Block" src="../image-10.png" /></p>
+</blockquote>
+</li>
+</ol>
+<hr />
+<h3 id="device-section">⚡ Device Section</h3>
+<p>Add the following code to detect the button press and send the <strong>Button</strong> message.</p>
+<p><img alt="Device Code" src="../image-11.png" /></p>
+<hr />
+<p>✅ <strong>You’ve completed your Splat Game!</strong><br />
+Test your button — when pressed, your character should jump!</p>
+<hr />
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../pc_u1_project5/" class="btn btn-neutral float-left" title="Project 5: Compose Basic Tone"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../pc_u1_lesson2_quiz/" class="btn btn-neutral float-right" title="End of Lesson 2 Quiz">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../endOfTermProject1/" class="btn btn-neutral float-left" title="Dodge the Asteroid"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -186,10 +255,8 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../pc_u1_project5/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../endOfTermProject1/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-    
-      <span><a href="../pc_u1_lesson2_quiz/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
