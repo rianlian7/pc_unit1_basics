@@ -42,7 +42,7 @@ Still not working? Try this test:
 ---
 
 ## 💾 Step 4 — Download the Template  
-[⬇️ Download the Splat Game Template](https://knewtonglobalschools-my.sharepoint.com/:u:/g/personal/michael_gau_knewton_edu_my/EbzNbQWCTaJKlvsOD3legrYBVhQc26w7iyf3qpBHe8fRUw?e=08J1ax)
+[⬇️ Download the Splat Game Template](https://knewtonglobalschools-my.sharepoint.com/:u:/g/personal/michael_gau_knewton_edu_my/EbzNbQWCTaJKlvsOD3legrYBVhQc26w7iyf3qpBHe8fRUw?e=oOhwJh)
 
 Use this template to get started quickly.
 
@@ -82,7 +82,7 @@ Use any sprite that can **jump over the projectile**.
 - The **second costume** is for the **jump animation**.
 
 ![Character Sprite 1](image-7.png)
-![Character Sprite 2](image-8.png)
+![alt text](image-19.png)
 
 ---
 
@@ -96,14 +96,14 @@ Now, let’s make your **external button** control the character’s jump.
 
 2. Replace the event block:  
    > Change **“When space key pressed”** → **“When I receive [Button]”**  
-   ![Receive Message Block](image-10.png)
+  ![alt text](image-20.png)
 
 ---
 
 ### ⚡ Device Section
 Add the following code to detect the button press and send the **Button** message.
 
-![Device Code](image-11.png)
+![alt text](image-21.png)
 
 ---
 
